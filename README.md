@@ -4,7 +4,7 @@ This is a simple Hot Key Service for AngularJS applications.
 
 ## Demo
 
-[Click here](https://plnkr.co/edit/cs6j5knbMAsLamyab9pu?p=preview) for demo.
+[Click here](https://codewarrior404.github.io/angularjs-hotkey-service/index.html) for demo.
 
 ## How to use
 
