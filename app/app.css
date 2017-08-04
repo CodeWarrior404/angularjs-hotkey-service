@@ -1,0 +1,13 @@
+#demoPageContainer {
+    padding: 20px;
+}
+
+#counter {
+    display: inline-block;
+    margin: 0.5em;
+    background-color: #bbb;
+    width: 80px;
+    text-align: center;
+    font-size: 42px;
+    border-radius: 50%;
+}

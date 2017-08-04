@@ -3,7 +3,9 @@
 
     angular.module('myApp', [
         'ngRoute',
-        'myApp.demo'
+        'mgcrea.ngStrap',
+        'myApp.demo',
+        'services.hotkey'
     ])
     .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
         $locationProvider.hashPrefix('!');
