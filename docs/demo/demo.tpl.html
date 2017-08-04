@@ -1,0 +1,26 @@
+<div id="demoPageContainer">
+  <h4>Please refer hotKeyService.js file for the source code.</h4>
+  <br/>
+  <h4>The Hot Key Service can be used to create Keyboard shortcuts for actions on the page. For example, Ctrl+S can be used to invoke the save operation.</h4>
+  <br/>
+  <h4>This page demonstrates the capabilities of the Hot Key Service</h4>
+  <br/>
+
+  <h4>Press <kbd>I</kbd> to increment and <kbd>D</kbd> to decrement the counter</h4>
+  <h4>Press <kbd>Ctrl+R</kbd> to reset the counter</h4>
+
+  <span id="counter">{{demoCtrl.counter}}</span>
+
+  <br/>
+  <h4>Here is a sample snippet for attaching a hot key handler:</h4>
+  <pre>
+    hotKeyService.bindKeyCombination('Ctrl+H', callbackFunc);
+
+    function callbackFunc () {
+      vm.showInfoAlert('Alert:', 'Callback handler invoked');
+    }
+  </pre>
+
+  <br/>
+  <h4>The Hot Key Service supports various key combinations, including 'Shift+D', 'Ctrl+Home', 'Home', 'Ctrl+Enter', etc.</h4>
+</div>
